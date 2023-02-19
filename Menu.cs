@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace reddit_image_downloader
+﻿namespace reddit_image_downloader
 {
     internal class Menu
     {
@@ -36,6 +30,5 @@ namespace reddit_image_downloader
                     break;
             }
         }
-        
     }
 }       
