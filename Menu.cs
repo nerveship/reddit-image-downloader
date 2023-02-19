@@ -2,11 +2,10 @@
 {
     internal class Menu
     {
+        ImageDownload imageDownload = new();
         internal void MainMenu()
         {
             var date = DateTime.Now;
-            string UserChoice = "";
-            string SubredditChoice = "";
             Console.WriteLine("---------------------------------------");
             Console.WriteLine("Welcome to the Reddit Image Downloader");
             Console.WriteLine($"Todays date and time is {date}");
@@ -21,12 +20,10 @@
             switch (Choice)
             {
                 case 1:
-                    Console.WriteLine("Which user profile would you like to download from?");
-                    UserChoice = Console.ReadLine();
+                    imageDownload.UserDownload();
                     break;
                 case 2:
-                    Console.WriteLine("Which subreddit would you like to download from?");
-                    SubredditChoice = Console.ReadLine();
+                    imageDownload.SubredditDownload();
                     break;
             }
         }

@@ -1,5 +1,4 @@
-﻿using HtmlAgilityPack;
-using reddit_image_downloader;
+﻿using reddit_image_downloader;
 
 //welcome the user
 //ask where they want to download from
